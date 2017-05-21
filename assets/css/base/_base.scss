@@ -1,0 +1,47 @@
+// main: ../style.scss
+
+body {
+    padding: 0;
+    margin: 0;
+    -webkit-app-region: drag;
+    background-color: $color-bg;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $white;
+    box-shadow: 0 0 0 1px alpha (shade($color-bg, 0.6), 0.55), 0 8px 10px 1px alpha (#000, 0.14), 0 3px 14px 2px alpha (#000, 0.12), 0 5px 5px -3px alpha (#000, 0.4), 0 14px 28px transparent;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 20px;
+    height: 35vh;
+    text-shadow: 0 1px 1px shade($color-bg, 0.95);
+
+    i {
+        margin-right: 10px;
+        color: $color-icon;
+    }
+}
+
+.ms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height: 65vh;
+    text-shadow: 0 1px 1px shade($color-bg, 0.95);
+    font-size: 50px;
+
+    span {
+        align-self: center;
+        font-size: 26px;
+        margin-top: 14px;
+        margin-left: 2px;
+    }
+
+    #status {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}

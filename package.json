@@ -1,0 +1,17 @@
+{
+  "name": "pinger",
+  "version": "1.0.0",
+  "description": "A minimal widget displaying your current latency",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mike Kokkolios <mikekokkolios@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "jjg-ping": "^1.0.1"
+  }
+}
